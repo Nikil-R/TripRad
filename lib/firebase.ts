@@ -14,31 +14,36 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
-// Initialize Firebase
-const app = (() => {
-  if (!firebaseConfig.apiKey) {
-    console.error("Firebase API Key is missing! App will likely crash on Auth.");
-     return initializeApp(firebaseConfig); // Allow it to try, but it might fail
-  }
-  return initializeApp(firebaseConfig);
-})();
-const analytics = getAnalytics(app);
+// Initialize Firebase variables
+let app;
+let analytics;
+let auth: any;
+let googleProvider: GoogleAuthProvider;
+let db: any;
 
-// Initialize Auth
-export const auth = getAuth(app);
-export const googleProvider = new GoogleAuthProvider();
+try {
+  if (firebaseConfig.apiKey) {
+    app = initializeApp(firebaseConfig);
+    analytics = getAnalytics(app);
+    auth = getAuth(app);
+    googleProvider = new GoogleAuthProvider();
+    db = getFirestore(app);
+  } else {
+    console.warn("Firebase Config missing! Firebase services will not work.");
+  }
+} catch (error) {
+  console.error("Error initializing Firebase:", error);
+}
 
 import { doc, getDoc, setDoc, serverTimestamp } from "firebase/firestore";
 
-// ... (previous imports and config remain same)
-
-// Initialize Firestore
-export const db = getFirestore(app);
+export { auth, googleProvider, db, analytics };
 
 // Auth Helper Functions
 
 // 1. Sign In: Checks if user exists in DB first
 export const signInWithGoogle = async () => {
+    if (!auth || !db) throw new Error("Firebase not initialized");
     try {
         const result = await signInWithPopup(auth, googleProvider);
         const user = result.user;
@@ -63,6 +68,7 @@ export const signInWithGoogle = async () => {
 
 // 2. Sign Up: Creates new user in DB (or logs in existing)
 export const signUpWithGoogle = async () => {
+    if (!auth || !db) throw new Error("Firebase not initialized");
     try {
         const result = await signInWithPopup(auth, googleProvider);
         const user = result.user;
@@ -97,7 +103,7 @@ export const signUpWithGoogle = async () => {
 };
 
 export const logout = async () => {
-// ... (rest remains same)
+    if (!auth) return;
     try {
         await signOut(auth);
     } catch (error) {
