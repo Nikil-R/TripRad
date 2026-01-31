@@ -1,8 +1,7 @@
 <div align="center">
 
-
-  <h1>NearGo</h1>
-  <h3>🚀 AI-Powered Smart Trip Planner</h3>
+  <h1>TripRad</h1>
+  <h3>🚀 AI-Powered Smart Radius Trip Planner</h3>
 
   <p>
     <b>Discover local gems tailored to your time, mood, and interests.</b>
@@ -11,23 +10,23 @@
   </p>
 
   <p>
-    <a href="https://near-go-steel.vercel.app/" target="_blank">
+    <a href="https://triprad.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/Live_Demo-🚀-blue?style=for-the-badge&logo=vercel" alt="Live Demo" />
     </a>
   </p>
 
   <p>
-    <a href="https://github.com/Nikil-R/NearGo/network/members">
-      <img src="https://img.shields.io/github/forks/Nikil-R/NearGo?style=for-the-badge&color=b14aed" alt="Forks" />
+    <a href="https://github.com/Nikil-R/TripRad/network/members">
+      <img src="https://img.shields.io/github/forks/Nikil-R/TripRad?style=for-the-badge&color=b14aed" alt="Forks" />
     </a>
-    <a href="https://github.com/Nikil-R/NearGo/stargazers">
-      <img src="https://img.shields.io/github/stars/Nikil-R/NearGo?style=for-the-badge&color=c026d3" alt="Stars" />
+    <a href="https://github.com/Nikil-R/TripRad/stargazers">
+      <img src="https://img.shields.io/github/stars/Nikil-R/TripRad?style=for-the-badge&color=c026d3" alt="Stars" />
     </a>
-    <a href="https://github.com/Nikil-R/NearGo/issues">
-      <img src="https://img.shields.io/github/issues/Nikil-R/NearGo?style=for-the-badge&color=db2777" alt="Issues" />
+    <a href="https://github.com/Nikil-R/TripRad/issues">
+      <img src="https://img.shields.io/github/issues/Nikil-R/TripRad?style=for-the-badge&color=db2777" alt="Issues" />
     </a>
-    <a href="https://github.com/Nikil-R/NearGo/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/Nikil-R/NearGo?style=for-the-badge&color=e11d48" alt="License" />
+    <a href="https://github.com/Nikil-R/TripRad/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/Nikil-R/TripRad?style=for-the-badge&color=e11d48" alt="License" />
     </a>
   </p>
 
@@ -57,9 +56,9 @@
 
 ## 📖 About The Project
 
-**NearGo** is an intelligent travel companion web application that revolutionizes how you plan short trips. Instead of browsing through endless lists of generic tourist spots, NearGo uses **Generative AI (Gemini)** to curate personalized itineraries based on your specific context.
+**TripRad** is an intelligent travel companion web application that revolutionizes how you plan short trips. Instead of browsing through endless lists of generic tourist spots, TripRad uses **Generative AI (Gemini)** to curate personalized itineraries based on your specific context.
 
-Whether you have a free afternoon (2 hours) or a whole weekend, and whether you're feeling adventurous or chill, NearGo finds the perfect local spots for you.
+Whether you have a free afternoon (2 hours) or a whole weekend, and whether you're feeling adventurous or chill, TripRad finds the perfect local spots for you.
 
 ## ✨ Key Features
 
@@ -143,8 +142,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <br>
 *Email*: [nikil.r.connect@gmail.com](mailto:nikil.r.connect@gmail.com)
 <br>
-**Project Link**: [https://github.com/Nikil-R/NearGo](https://github.com/Nikil-R/NearGo)
-**Live Demo**: [https://near-go-steel.vercel.app/](https://near-go-steel.vercel.app/)
+**Project Link**: [https://github.com/Nikil-R/TripRad](https://github.com/Nikil-R/TripRad)
+**Live Demo**: [https://triprad.vercel.app/](https://triprad.vercel.app/)
 
 ---
 
