@@ -2,7 +2,15 @@ import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { UserLocation, UserPreferences, Trip, TravelMethod } from '../types';
 
 // Initialize Gemini
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Initialize Gemini lazily
+const getAI = () => {
+  const apiKey = process.env.API_KEY;
+  if (!apiKey) {
+    console.error("Gemini API Key is missing! Check your .env.local or Vercel Environment Variables.");
+    throw new Error("Missing Gemini API Key");
+  }
+  return new GoogleGenAI({ apiKey });
+};
 
 const TRIP_SCHEMA: Schema = {
   type: Type.OBJECT,
@@ -208,7 +216,7 @@ export const generateTrips = async (
   `;
 
   try {
-    const response = await ai.models.generateContent({
+    const response = await getAI().models.generateContent({
       model: modelId,
       contents: prompt,
       config: {

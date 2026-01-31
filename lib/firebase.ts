@@ -15,7 +15,13 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+const app = (() => {
+  if (!firebaseConfig.apiKey) {
+    console.error("Firebase API Key is missing! App will likely crash on Auth.");
+     return initializeApp(firebaseConfig); // Allow it to try, but it might fail
+  }
+  return initializeApp(firebaseConfig);
+})();
 const analytics = getAnalytics(app);
 
 // Initialize Auth
