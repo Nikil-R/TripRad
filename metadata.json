@@ -1,0 +1,7 @@
+{
+  "name": "NearGo",
+  "description": "Your AI-powered local discovery companion for spontaneous trips.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
