@@ -32,7 +32,7 @@ export const useGeolocation = (): GeolocationState => {
           const response = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json&addressdetails=1`, {
             headers: { 
                 'Accept-Language': 'en',
-                'User-Agent': 'NearGo-App-v1.0' // Nominatim requires a user agent
+                'User-Agent': 'TripRad-App-v1.0' // Nominatim requires a user agent
             }
           });
           const data = await response.json();

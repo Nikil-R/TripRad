@@ -1,5 +1,5 @@
 {
-  "name": "NearGo",
+  "name": "TripRad",
   "description": "Your AI-powered local discovery companion for spontaneous trips.",
   "requestFramePermissions": [
     "geolocation"

@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-900 transition-colors group-hover:text-indigo-600">
-              NearGo
+              TripRad
             </h1>
             <span className="text-[10px] text-slate-400 font-medium">Smart Discovery</span>
           </div>

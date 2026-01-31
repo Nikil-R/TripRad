@@ -94,8 +94,8 @@ Follow these steps to get a local copy up and running.
 
 1.  **Clone the repo**
     ```sh
-    git clone https://github.com/Nikil-R/NearGo.git
-    cd NearGo
+    git clone https://github.com/Nikil-R/TripRad.git
+    cd TripRad
     ```
 
 2.  **Install NPM packages**
@@ -113,7 +113,7 @@ Follow these steps to get a local copy up and running.
 
 ## 📍 Roadmap
 
-We are constantly working to improve NearGo. Here are some features we plan to implement:
+We are constantly working to improve TripRad. Here are some features we plan to implement:
 
 - [ ] **Interactive Map View**: Transition from list-based suggestions to a full-screen interactive map.
 - [ ] **Multi-user Collaborative Planning**: Allow friends to join a session and vote on trip locations.

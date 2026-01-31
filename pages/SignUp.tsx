@@ -30,7 +30,7 @@ export const SignUp: React.FC = () => {
       <div className="w-full max-w-md space-y-8 animate-fade-in-up">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-slate-900">Create an account</h2>
-          <p className="mt-2 text-slate-500">Join NearGo and start exploring</p>
+          <p className="mt-2 text-slate-500">Join TripRad and start exploring</p>
         </div>
 
         <div className="bg-white p-8 rounded-3xl shadow-xl border border-slate-100 space-y-6">

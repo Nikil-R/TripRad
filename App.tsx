@@ -62,7 +62,7 @@ const App: React.FC = () => {
             <AppRoutes />
 
             <footer className="py-10 text-center border-t border-slate-200 bg-white animate-fade-in">
-              <p className="text-slate-500 text-sm hover:text-indigo-600 transition-colors cursor-default">NearGo &copy; {new Date().getFullYear()}</p>
+              <p className="text-slate-500 text-sm hover:text-indigo-600 transition-colors cursor-default">TripRad &copy; {new Date().getFullYear()}</p>
               <p className="mt-1 text-xs text-slate-400 animate-float">Powered by Gemini AI ✨</p>
             </footer>
           </div>
