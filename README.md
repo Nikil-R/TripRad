@@ -1,4 +1,8 @@
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="NearGo Banner" width="100%" />
+
+  <br />
+  <br />
 
   <h1>NearGo</h1>
   <h3>🚀 AI-Powered Smart Trip Planner</h3>
@@ -7,6 +11,12 @@
     <b>Discover local gems tailored to your time, mood, and interests.</b>
     <br />
     Powered by <b>Gemini AI</b> and <b>Firebase</b>.
+  </p>
+
+  <p>
+    <a href="https://near-go-steel.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Live_Demo-🚀-blue?style=for-the-badge&logo=vercel" alt="Live Demo" />
+    </a>
   </p>
 
   <p>
@@ -31,7 +41,7 @@
     <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-    <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini AI" />
+    <img src="https://img.shields.io/badge/Gemini_AI-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini AI" />
   </p>
 </div>
 
@@ -43,9 +53,7 @@
 - [Key Features](#-key-features)
 - [Tech Stack](#-tech-stack)
 - [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
+- [Roadmap](#-roadmap)
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
@@ -100,30 +108,23 @@ Follow these steps to get a local copy up and running.
     ```
 
 3.  **Setup Environment Variables**
-    Create a `.env.local` file in the root directory and add your keys (see below).
+    Create a `.env.local` file in the root directory and add your keys.
 
 4.  **Run Development Server**
     ```sh
     npm run dev
     ```
 
-### Environment Variables
+## 📍 Roadmap
 
-You must configure the following keys in `.env.local` to run the app:
+We are constantly working to improve NearGo. Here are some features we plan to implement:
 
-```env
-# Gemini AI
-GEMINI_API_KEY=your_gemini_api_key_here
-
-# Firebase Configuration
-VITE_FIREBASE_API_KEY=your_firebase_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_project_id.firebasestorage.app
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
-```
+- [ ] **Interactive Map View**: Transition from list-based suggestions to a full-screen interactive map.
+- [ ] **Multi-user Collaborative Planning**: Allow friends to join a session and vote on trip locations.
+- [ ] **Weather-Integrated Recommendations**: Automatically suggest indoor or outdoor activities based on local forecasts.
+- [ ] **Offline Mode**: Cache generated itineraries for use in areas with poor network connectivity.
+- [ ] **AI Trip Agent Chat**: A specialized chat interface to fine-tune your itinerary through natural conversation.
+- [ ] **Google Maps Navigation Deep-linking**: One-click to start navigation for the entire selected itinerary.
 
 ## 🤝 Contributing
 
@@ -143,10 +144,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Author**: Nikil R
 <br>
-*Email*: nikil.r.connect@gmail.com
+*Email*: [nikil.r.connect@gmail.com](mailto:nikil.r.connect@gmail.com)
 <br>
 **Project Link**: [https://github.com/Nikil-R/NearGo](https://github.com/Nikil-R/NearGo)
+**Live Demo**: [https://near-go-steel.vercel.app/](https://near-go-steel.vercel.app/)
 
 ---
 
+<div align="center">
+  <p>Made with ❤️ using React & Gemini AI</p>
 </div>
