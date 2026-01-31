@@ -1,8 +1,4 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" alt="NearGo Banner" width="100%" />
-
-  <br />
-  <br />
 
   <h1>NearGo</h1>
   <h3>🚀 AI-Powered Smart Trip Planner</h3>
@@ -146,7 +142,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📧 Contact
 
 **Author**: Nikil R
-**Email**: nikil.r.connect@gmail.com
+<br>
+*Email*: nikil.r.connect@gmail.com
+<br>
 **Project Link**: [https://github.com/Nikil-R/NearGo](https://github.com/Nikil-R/NearGo)
 
 ---
